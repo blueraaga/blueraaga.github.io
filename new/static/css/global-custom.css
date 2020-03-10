@@ -1,4 +1,11 @@
-#wide-nav {
-    /* padding-left: 20%;
-    padding-right: 20%; */
+.c-r {
+    background-color: red;
+}
+
+.c-g {
+    background-color: green;
+}
+
+.c-b {
+    background-color: blue;
 }
