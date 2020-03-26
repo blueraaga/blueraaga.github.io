@@ -62,6 +62,7 @@ ol.carousel-indicators li {
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
+    height: 70vh;
 }
 
 .carousel-caption {
@@ -76,8 +77,7 @@ ol.carousel-indicators li {
     color: rgb(255, 255, 255, 1);
     border-color: rgb(255, 255, 255, 1);
     background-color: rgb(0, 0, 0, 0.3);
-    padding: 1rem 4rem;
-    margin: 1rem 0.5rem;
+    margin: 0.5rem 1rem;
 }
 
 .carousel-cta .btn:hover {
@@ -98,6 +98,12 @@ ol.carousel-indicators li {
     border-top: 0px;
 }
 
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
 .blockquote mark {
     line-height: 1.6;
 }
@@ -111,16 +117,39 @@ ol.carousel-indicators li {
     margin-bottom: 3rem;
 }
 
+.section-profile .display-3 {
+    -webkit-text-stroke: 1px rgba(231, 231, 231, 0.1);
+}
+
+.section-works .card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+}
+
+.section-works .card:hover,
+.section-blogs .card:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+
+@media only screen and (max-width: 34em) { 
+	.section .section-head p {
+        font-size: 3rem;
+    }
+
+    footer .footer-copyright {
+        font-size: 0.7rem;
+    }
+}
+
 footer {
     background-color: #fafafa;
 }
 
 footer .footer-copyright {
     background-color: rgb(180, 180, 180, 0.3);
-}
-
-footer div.footer-about p {
-    /* font-size: 70%; */
 }
 
 
@@ -411,6 +440,16 @@ footer div.footer-about p {
     text-shadow: rgba(245,245,245,0.5) 3px 5px 1px;
 }
 
+.engraved-2 {
+    font-family: 'Playfair Display', serif;
+    background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(245,245,245,0.5) 3px 5px 1px, #fff 0px 0px 15px,  #fff 0px 0px 10px,  #fff 0px 0px 5px,;
+}
+
 .embossed-2 {
     /* mix-blend-mode: multiply; */
     color: white;
@@ -429,7 +468,6 @@ footer div.footer-about p {
   text-align: center;
   -webkit-background-clip: text;
     -moz-background-clip: text;
-
 }
 
 .carved-box {
