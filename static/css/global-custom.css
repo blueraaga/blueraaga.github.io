@@ -152,22 +152,18 @@ footer .footer-copyright {
     background-color: rgb(180, 180, 180, 0.3);
 }
 
-
-.c-box {
-    height: 250px;
+footer a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 0px dotted black;
 }
 
-.c-r {
-    background-color: red;
+footer a:hover {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dotted black;
 }
 
-.c-g {
-    background-color: green;
-}
-
-.c-b {
-    background-color: blue;
-}
 
 /*==================================================
  * Effect 1
@@ -440,15 +436,6 @@ footer .footer-copyright {
     text-shadow: rgba(245,245,245,0.5) 3px 5px 1px;
 }
 
-.engraved-2 {
-    font-family: 'Playfair Display', serif;
-    background-color: #666666;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    text-shadow: rgba(245,245,245,0.5) 3px 5px 1px, #fff 0px 0px 15px,  #fff 0px 0px 10px,  #fff 0px 0px 5px,;
-}
 
 .embossed-2 {
     /* mix-blend-mode: multiply; */
@@ -474,4 +461,26 @@ footer .footer-copyright {
     -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
     box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* Contact page specific */
+
+.section-contact {
+    margin-top: 10vh;
+}
+
+.section-contact form {
+    margin-top: 5vh;
+}
+
+.section-contact a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 0px dotted black;
+}
+
+.section-contact a:hover {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dotted black;
 }

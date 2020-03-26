@@ -1,45 +1,3 @@
-// // Normalize Carousel Heights - pass in Bootstrap Carousel items.
-// $.fn.carouselHeights = function() {
-
-//     var items = $(this), //grab all slides
-//         heights = [], //create empty array to store height values
-//         tallest; //create variable to make note of the tallest slide
-
-//     var normalizeHeights = function() {
-
-//         items.each(function() { //add heights to array
-//             heights.push($(this).height()); 
-//         });
-//         tallest = Math.max.apply(null, heights); //cache largest value
-//         items.each(function() {
-//             $(this).css('min-height',tallest + 'px');
-//         });
-//     };
-
-//     normalizeHeights();
-
-//     $(window).on('resize orientationchange', function () {
-//         //reset vars
-//         tallest = 0;
-//         heights.length = 0;
-
-//         items.each(function() {
-//             $(this).css('min-height','0'); //reset min-height
-//         }); 
-//         normalizeHeights(); //run it again 
-//     });
-
-// };
-
-// jQuery(function($){
-
-//     $(window).on('load', function(){
-//         $('#carouselExampleCaptions .carousel-item').carouselHeights();
-//     });
-
-// });
-
-
 var $item = $('.carousel-item'); 
 var $wHeight = $(window).height();
 $item.eq(0).addClass('active');
@@ -79,4 +37,19 @@ $(document).ready(function () {
     });
 
 
+    const setModules = async () => {
+        // Header
+        const r_header = await fetch('/static/module/header.mod')
+        const c_header = await r_header.text()
+        console.log("Mod Header obtained")
+        document.getElementById("br-header").innerHTML = c_header
+
+        // Footer
+        const r_footer = await fetch('/static/module/footer.mod')
+        const c_footer = await r_footer.text()
+        console.log("Mod Footer obtained")
+        document.getElementById("br-footer").innerHTML = c_footer
+    }
+
+    setModules()
 });

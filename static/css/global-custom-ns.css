@@ -1,0 +1,184 @@
+/*
+*
+* ==========================================
+* CUSTOM OVERRIDES
+* ==========================================
+*
+*/
+
+
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+body {
+    background-color: transparent;
+    /* background-image: linear-gradient(140deg, #f2bba7 10%, #f07197 25%, #ed4587 40%, #7f65a0 75%, #654d92 89%, #483f76 95%);
+    background-image: linear-gradient(140deg, #f5f5f5 10%, #cecece 35%, #a5a5a5 70%, #838383 95%); */
+}
+
+.navbar-brand img {
+    width: 30px;
+    height: 30px;
+}
+
+.c-bg-transparent {
+    background-color: transparent;
+}
+
+.navbar { 
+    background-color: rgb(255,255,255, 0.5);
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.scrolled { 
+    background-color: rgb(255,255,255, 1);
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+ol.carousel-indicators li {
+    width: 45px;
+    height: 9px;
+}
+
+.carousel-content {
+    position: absolute;
+    right: 15%;
+    top: 20%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    height: 70vh;
+}
+
+.carousel-caption {
+    color: white;
+}
+
+.carousel-inner > .carousel-item {
+    height: 100vh;
+}
+
+.carousel-cta .btn {
+    color: rgb(255, 255, 255, 1);
+    border-color: rgb(255, 255, 255, 1);
+    background-color: rgb(0, 0, 0, 0.3);
+    margin: 0.5rem 1rem;
+}
+
+.carousel-cta .btn:hover {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.carousel-cta .card {
+    background-color: rgb(0, 0, 0, 0.3);
+    border: 1px solid white;
+}
+
+.carousel-cta .card:hover {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+
+.carousel-cta .card-footer {
+    border-top: 0px;
+}
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.blockquote mark {
+    line-height: 1.6;
+}
+
+.section {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.section .section-head {
+    margin-bottom: 3rem;
+}
+
+.section-profile .display-3 {
+    -webkit-text-stroke: 1px rgba(231, 231, 231, 0.1);
+}
+
+.section-works .card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+}
+
+.section-works .card:hover,
+.section-blogs .card:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+
+@media only screen and (max-width: 34em) { 
+	.section .section-head p {
+        font-size: 3rem;
+    }
+
+    footer .footer-copyright {
+        font-size: 0.7rem;
+    }
+}
+
+footer {
+    background-color: #fafafa;
+}
+
+footer .footer-copyright {
+    background-color: rgb(180, 180, 180, 0.3);
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 0px dotted black;
+}
+
+footer a:hover {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+}
+
+.engraved {
+    font-family: 'Playfair Display', serif;
+    background-color: #00a1f1;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.embossed{
+  color: #f0f0f0;
+  /* font-size: 100px; */
+  font-family: 'Playfair Display', serif;
+  background-color: #666666;
+  text-align: center;
+  -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
