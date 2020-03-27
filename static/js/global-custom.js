@@ -44,6 +44,18 @@ $(document).ready(function () {
         console.log("Mod Header obtained")
         document.getElementById("br-header").innerHTML = c_header
 
+        // Disclaimer
+        const r_disclaimer = await fetch('/static/module/disclaimer.mod')
+        const c_disclaimer = await r_disclaimer.text()
+        console.log("Mod disclaimer obtained")
+        document.getElementById("disclaimerModal").innerHTML = c_disclaimer
+
+        // Credits
+        const r_credits = await fetch('/static/module/credits.mod')
+        const c_credits = await r_credits.text()
+        console.log("Mod credits obtained")
+        document.getElementById("creditsModal").innerHTML = c_credits
+
         // Footer
         const r_footer = await fetch('/static/module/footer.mod')
         const c_footer = await r_footer.text()

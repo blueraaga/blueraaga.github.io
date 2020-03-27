@@ -465,12 +465,35 @@ footer a:hover {
 
 /* Contact page specific */
 
-.section-contact {
+.page {
     margin-top: 10vh;
 }
 
+
+.section-mission #mission-holder {
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.section-mission  #mission-holder div.row p {
+    background: url("/static/image/c20.jpg");
+    background-size: cover;
+}
+
+.section-contact #form-holder {
+    padding: 2px;
+    border: 1px solid black;
+}
+
 .section-contact form {
-    margin-top: 5vh;
+    padding-top: 5vh;
+    background: url("/static/image/c18.jpg");
+    background-size: cover;
+}
+
+.section-contact form input, .section-contact form textarea {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
 }
 
 .section-contact a {

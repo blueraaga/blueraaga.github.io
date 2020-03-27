@@ -8,9 +8,9 @@
             <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" href="/about/">About<span class="sr-only">(current)</span></a>
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Mission</a>
-              <a class="dropdown-item" href="#">Timeline</a>
-              <a class="dropdown-item" href="#">Profile</a>
+              <a class="dropdown-item" href="/about/mission.html">Mission</a>
+              <a class="dropdown-item" href="/about/timeline.html">Timeline</a>
+              <a class="dropdown-item" href="/about/profile.html">Profile</a>
             </div>
 
 

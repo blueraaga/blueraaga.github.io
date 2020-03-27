@@ -25,9 +25,9 @@
                 <li><a href="#!">Profile</a></li>
                 <li><a href="#!">&nbsp;</a></li>
                 <li><a href="#!">Resume</a></li>
-                <li><a href="#!">Disclaimer</a></li>
                 <li><a href="#!">&nbsp;</a></li>
-                <li><a href="#!">Credits</a></li>
+                <li><a href="#!" data-toggle="modal" data-target="#disclaimerModal">Disclaimer</a></li>
+                <li><a href="#!" data-toggle="modal" data-target="#creditsModal">Credits</a></li>
               </ul>
             </div>
             <div class="link-set mx-3">
