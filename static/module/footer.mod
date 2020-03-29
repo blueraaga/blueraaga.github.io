@@ -20,9 +20,9 @@
             <div class="link-set mx-3">
               <h5 class="text-uppercase engraved">About</h5>
               <ul class="list-unstyled">
-                <li><a href="#!">Mission</a></li>
-                <li><a href="#!">Timeline</a></li>
-                <li><a href="#!">Profile</a></li>
+                <li><a href="/about/mission.html">Mission</a></li>
+                <li><a href="/about/profile.html">Profile</a></li>
+                <li><a href="/about/timeline.html">Timeline</a></li>
                 <li><a href="#!">&nbsp;</a></li>
                 <li><a href="#!">Resume</a></li>
                 <li><a href="#!">&nbsp;</a></li>
@@ -46,7 +46,7 @@
             <div class="link-set mx-3">
               <h5 class="text-uppercase engraved">Connect</h5>
               <ul class="list-unstyled">
-                <li><a href="#!https://www.linkedin.com/in/blueraaga/">LinkedIn</a></li>
+                <li><a href="https://www.linkedin.com/in/blueraaga/">LinkedIn</a></li>
                 <li><a href="https://twitter.com/blueraaga">Twitter</a></li>
                 <li><a href="mailto:blueraaga@gmail.com">Email</a></li>
               </ul>

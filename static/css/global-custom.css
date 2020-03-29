@@ -117,7 +117,7 @@ ol.carousel-indicators li {
     margin-bottom: 3rem;
 }
 
-.section-profile .display-3 {
+.section-hilight .display-3 {
     -webkit-text-stroke: 1px rgba(231, 231, 231, 0.1);
 }
 
@@ -470,14 +470,32 @@ footer a:hover {
 }
 
 
-.section-mission #mission-holder {
+.section-mission #mission-holder,
+.section-profile #profile-holder {
     padding: 2px;
     border: 1px solid black;
 }
 
-.section-mission  #mission-holder div.row p {
+.section-mission #mission-holder div.row p.jumbo-text {
     background: url("/static/image/c20.jpg");
     background-size: cover;
+}
+
+.section-profile #profile-holder div.row p.jumbo-text {
+    background: url("/static/image/c22.jpg");
+    background-size: cover;
+}
+
+.section-profile a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+}
+
+.section-profile a:hover {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid black;
 }
 
 .section-contact #form-holder {

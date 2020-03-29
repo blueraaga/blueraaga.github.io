@@ -64,4 +64,8 @@ $(document).ready(function () {
     }
 
     setModules()
+
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
 });
