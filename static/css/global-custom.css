@@ -486,13 +486,13 @@ footer a:hover {
     background-size: cover;
 }
 
-.section-profile a {
+.page.section a {
     color: #000;
     text-decoration: none;
     border-bottom: 1px dotted black;
 }
 
-.section-profile a:hover {
+.page.section a:hover {
     color: #000;
     text-decoration: none;
     border-bottom: 1px solid black;
@@ -514,7 +514,7 @@ footer a:hover {
     color: white;
 }
 
-.section-contact a {
+/* .section-contact a {
     color: #000;
     text-decoration: none;
     border-bottom: 0px dotted black;
@@ -524,4 +524,4 @@ footer a:hover {
     color: #000;
     text-decoration: none;
     border-bottom: 1px dotted black;
-}
+} */

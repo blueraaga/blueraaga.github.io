@@ -1,0 +1,582 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <title>Blueraaga</title>
+    <link rel="icon" type="image/png" href="/static/image/logo.svg">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Font Awesome Icon JS -->
+    <script src="https://kit.fontawesome.com/37a24d7688.js" crossorigin="anonymous"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/global-custom.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Disclaimer start -->
+    <div class="modal fade" id="disclaimerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"></div>
+    <!-- Disclaimer end -->
+
+    <!-- Credits start -->
+    <div class="modal fade" id="creditsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"></div>
+    <!-- Credits end -->
+
+
+    <!-- Navigation start -->
+    <nav class="navbar row justify-content-center fixed-top navbar-expand-lg navbar-light scrolled effect1 px-0 mx-0" id="br-header">
+    </nav>
+    <!-- Navigation end -->
+
+    <div class="container">
+  
+      <!-- Work Cards start -->
+      <div class="row section page section-mission justify-content-center">
+        <div class="col-lg-10 d-flex justify-content-center section-head effect1a">
+          <p class="display-3 engraved">Timeline</p>
+        </div>
+        
+        
+        <div class="col-lg-10 my-4">
+          <div class="h2">T1</div>
+        
+
+          <div class="row">
+              <!-- timeline item 1 left dot -->
+              <div class="col-auto text-center flex-column d-none d-sm-flex">
+                  <div class="row h-50">
+                      <div class="col">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+                  <h5 class="m-2">
+                      <span class="badge badge-pill bg-light border">&nbsp;</span>
+                  </h5>
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+              </div>
+              <!-- timeline item 1 event content -->
+              <div class="col py-2">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="float-right text-muted">Mon, Jan 9th 2019 7:00 AM</div>
+                          <h4 class="card-title text-muted">Day 1 Orientation</h4>
+                          <p class="card-text">Welcome to the campus, introduction and get started with the tour.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!--/row-->
+          <!-- timeline item 2 -->
+          <div class="row">
+              <div class="col-auto text-center flex-column d-none d-sm-flex">
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+                  <h5 class="m-2">
+                      <span class="badge badge-pill bg-success">&nbsp;</span>
+                  </h5>
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+              </div>
+              <div class="col py-2">
+                  <div class="card border-success shadow">
+                      <div class="card-body">
+                          <div class="float-right text-success">Tue, Jan 10th 2019 8:30 AM</div>
+                          <h4 class="card-title text-success">Day 2 Sessions</h4>
+                          <p class="card-text">Sign-up for the lessons and speakers that coincide with your course syllabus. Meet and greet with instructors.</p>
+                          <button class="btn btn-sm btn-outline-secondary" type="button" data-target="#t2_details" data-toggle="collapse">Show Details ▼</button>
+                          <div class="collapse border" id="t2_details">
+                              <div class="p-2 text-monospace">
+                                  <div>08:30 - 09:00 Breakfast in CR 2A</div>
+                                  <div>09:00 - 10:30 Live sessions in CR 3</div>
+                                  <div>10:30 - 10:45 Break</div>
+                                  <div>10:45 - 12:00 Live sessions in CR 3</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!--/row-->
+          <!-- timeline item 3 -->
+          <div class="row">
+              <div class="col-auto text-center flex-column d-none d-sm-flex">
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+                  <h5 class="m-2">
+                      <span class="badge badge-pill bg-light border">&nbsp;</span>
+                  </h5>
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+              </div>
+              <div class="col py-2">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="float-right text-muted">Wed, Jan 11th 2019 8:30 AM</div>
+                          <h4 class="card-title">Day 3 Sessions</h4>
+                          <p>Shoreditch vegan artisan Helvetica. Tattooed Codeply Echo Park Godard kogi, next level irony ennui twee squid fap selvage. Meggings flannel Brooklyn literally small batch, mumblecore PBR try-hard kale chips. Brooklyn vinyl lumbersexual
+                              bicycle rights, viral fap cronut leggings squid chillwave pickled gentrify mustache. 3 wolf moon hashtag church-key Odd Future. Austin messenger bag normcore, Helvetica Williamsburg sartorial tote bag distillery Portland before
+                              they sold out gastropub taxidermy Vice.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!--/row-->
+          <!-- timeline item 4 -->
+          <div class="row">
+              <div class="col-auto text-center flex-column d-none d-sm-flex">
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+                  <h5 class="m-2">
+                      <span class="badge badge-pill bg-light border">&nbsp;</span>
+                  </h5>
+                  <div class="row h-50">
+                      <div class="col">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+              </div>
+              <div class="col py-2">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="float-right text-muted">Thu, Jan 12th 2019 11:30 AM</div>
+                          <h4 class="card-title">Day 4 Wrap-up</h4>
+                          <p>Join us for lunch in Bootsy's cafe across from the Campus Center.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!--/row-->
+
+        </div>
+        
+        <!-- Send style of timeline -->
+        
+        
+        <div class="col-lg-10 my-4">
+            <div class="h2">T2</div>
+
+          <div class="row no-gutters">
+              <div class="col-sm"> <!--spacer--> </div>
+              <!-- timeline item 1 center dot -->
+              <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                  <div class="row h-50">
+                      <div class="col">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+                  <h5 class="m-2">
+                      <span class="badge badge-pill bg-light border">&nbsp;</span>
+                  </h5>
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+              </div>
+              <!-- timeline item 1 event content -->
+              <div class="col-sm py-2">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="float-right text-muted small">Jan 9th 2019 7:00 AM</div>
+                          <h4 class="card-title text-muted">Day 1 Orientation</h4>
+                          <p class="card-text">Welcome to the campus, introduction and get started with the tour.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!--/row-->
+          <!-- timeline item 2 -->
+          <div class="row no-gutters">
+              <div class="col-sm py-2">
+                  <div class="card border-success shadow">
+                      <div class="card-body">
+                          <div class="float-right text-success small">Jan 10th 2019 8:30 AM</div>
+                          <h4 class="card-title text-success">Day 2 Sessions</h4>
+                          <p class="card-text">Sign-up for the lessons and speakers that coincide with your course syllabus. Meet and greet with instructors.</p>
+                          <button class="btn btn-sm btn-outline-secondary" type="button" data-target="#t22_details" data-toggle="collapse">Show Details ▼</button>
+                          <div class="collapse border" id="t22_details">
+                              <div class="p-2 text-monospace">
+                                  <div>08:30 - 09:00 Breakfast in CR 2A</div>
+                                  <div>09:00 - 10:30 Live sessions in CR 3</div>
+                                  <div>10:30 - 10:45 Break</div>
+                                  <div>10:45 - 12:00 Live sessions in CR 3</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+                  <h5 class="m-2">
+                      <span class="badge badge-pill bg-success">&nbsp;</span>
+                  </h5>
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+              </div>
+              <div class="col-sm"> <!--spacer--> </div>
+          </div>
+          <!--/row-->
+          <!-- timeline item 3 -->
+          <div class="row no-gutters">
+              <div class="col-sm"> <!--spacer--> </div>
+              <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+                  <h5 class="m-2">
+                      <span class="badge badge-pill bg-light border">&nbsp;</span>
+                  </h5>
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+              </div>
+              <div class="col-sm py-2">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="float-right text-muted small">Jan 11th 2019 8:30 AM</div>
+                          <h4 class="card-title">Day 3 Sessions</h4>
+                          <p>Shoreditch vegan artisan Helvetica. Tattooed Codeply Echo Park Godard kogi, next level irony ennui twee squid fap selvage. Meggings flannel Brooklyn literally small batch, mumblecore PBR try-hard kale chips. Brooklyn vinyl lumbersexual
+                              bicycle rights, viral fap cronut leggings squid chillwave pickled gentrify mustache.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!--/row-->
+          <!-- timeline item 4 -->
+          <div class="row no-gutters">
+              <div class="col-sm py-2">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="float-right text-muted small">Jan 12th 2019 11:30 AM</div>
+                          <h4 class="card-title">Day 4 Wrap-up</h4>
+                          <p>Join us for lunch in Bootsy's cafe across from the Campus Center.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+                  <h5 class="m-2">
+                      <span class="badge badge-pill bg-light border">&nbsp;</span>
+                  </h5>
+                  <div class="row h-50">
+                      <div class="col">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+              </div>
+              <div class="col-sm"> <!--spacer--> </div>
+          </div>
+          <!--/row-->
+
+        </div>
+
+
+        <!-- Send style of timeline -->
+        
+        <div class="col-lg-10 my-4">
+          <div class="h2">T3</div>
+        
+
+          <div class="row no-gutters">
+              <div class="col-sm-2"> <!--spacer--> </div>
+              <!-- timeline item 1 center dot -->
+              <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                  <div class="row h-50">
+                      <div class="col">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+                  <h5 class="m-2">
+                      <span class="badge badge-pill bg-light border">&nbsp;</span>
+                  </h5>
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+              </div>
+              <!-- timeline item 1 event content -->
+              <div class="col-sm-9 py-2">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="float-right text-muted small">Jan 9th 2019 7:00 AM</div>
+                          <h4 class="card-title text-muted">Day 1 Orientation</h4>
+                          <p class="card-text">Welcome to the campus, introduction and get started with the tour.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!--/row-->
+          <!-- timeline item 2 -->
+          <div class="row no-gutters">
+              <div class="col-sm-2 py-2">
+                  <div class="card border-success shadow">
+                      <div class="card-body">
+                          <div class="float-right text-success small">Jan 10th 2019 8:30 AM</div>
+                          <h4 class="card-title text-success">Day 2 Sessions</h4>
+                          <p class="card-text">Sign-up.</p>
+                          <button class="btn btn-sm btn-outline-secondary" type="button" data-target="#t22_details" data-toggle="collapse">Show Details ▼</button>
+                          <div class="collapse border" id="t22_details">
+                              <div class="p-2 text-monospace">
+                                  <div>08:30 - 09:00 Breakfast in CR 2A</div>
+                                  <div>09:00 - 10:30 Live sessions in CR 3</div>
+                                  <div>10:30 - 10:45 Break</div>
+                                  <div>10:45 - 12:00 Live sessions in CR 3</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+                  <h5 class="m-2">
+                      <span class="badge badge-pill bg-success">&nbsp;</span>
+                  </h5>
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+              </div>
+              <div class="col-sm-9"> <!--spacer--> </div>
+          </div>
+          <!--/row-->
+          <!-- timeline item 3 -->
+          <div class="row no-gutters">
+              <div class="col-sm-2"> <!--spacer--> </div>
+              <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+                  <h5 class="m-2">
+                      <span class="badge badge-pill bg-light border">&nbsp;</span>
+                  </h5>
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+              </div>
+              <div class="col-sm-9 py-2">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="float-right text-muted small">Jan 11th 2019 8:30 AM</div>
+                          <h4 class="card-title">Day 3 Sessions</h4>
+                          <p>Shoreditch vegan artisan Helvetica. Tattooed Codeply Echo Park Godard kogi, next level irony ennui twee squid fap selvage. Meggings flannel Brooklyn literally small batch, mumblecore PBR try-hard kale chips. Brooklyn vinyl lumbersexual
+                              bicycle rights, viral fap cronut leggings squid chillwave pickled gentrify mustache.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!--/row-->
+          <!-- timeline item 4 -->
+          <div class="row no-gutters">
+              <div class="col-sm-2 py-2">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="float-right text-muted small">Jan 12th 2019 11:30 AM</div>
+                          <h4 class="card-title">Day 4 Wrap-up</h4>
+                          <p>Join us for lunch in Bootsy's cafe across from the Campus Center.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                  <div class="row h-50">
+                      <div class="col border-right">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+                  <h5 class="m-2">
+                      <span class="badge badge-pill bg-light border">&nbsp;</span>
+                  </h5>
+                  <div class="row h-50">
+                      <div class="col">&nbsp;</div>
+                      <div class="col">&nbsp;</div>
+                  </div>
+              </div>
+              <div class="col-sm-9"> <!--spacer--> </div>
+          </div>
+          <!--/row-->
+
+        </div>
+
+
+        <!-- Send style of timeline -->
+        
+        <div class="col-lg-10 my-4">
+            <div class="h2">T4</div>
+          
+  
+            <div class="row no-gutters">
+                <div class="col-sm-9"> <!--spacer--> </div>
+                <!-- timeline item 1 center dot -->
+                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                    <div class="row h-50">
+                        <div class="col">&nbsp;</div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                    <h5 class="m-2">
+                        <span class="badge badge-pill bg-light border">&nbsp;</span>
+                    </h5>
+                    <div class="row h-50">
+                        <div class="col border-right">&nbsp;</div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+                <!-- timeline item 1 event content -->
+                <div class="col-sm-2 py-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="float-right text-muted small">Jan 9th 2019 7:00 AM</div>
+                            <h4 class="card-title text-muted">Day 1</h4>
+                            <p class="card-text">Welcome.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 2 -->
+            <div class="row no-gutters">
+                <div class="col-sm-9 py-2">
+                    <div class="card border-success shadow">
+                        <div class="card-body">
+                            <div class="float-right text-success small">Jan 10th 2019 8:30 AM</div>
+                            <h4 class="card-title text-success">Day 2 Sessions</h4>
+                            <p class="card-text">Sign-up.</p>
+                            <button class="btn btn-sm btn-outline-secondary" type="button" data-target="#t22_details" data-toggle="collapse">Show Details ▼</button>
+                            <div class="collapse border" id="t22_details">
+                                <div class="p-2 text-monospace">
+                                    <div>08:30 - 09:00 Breakfast in CR 2A</div>
+                                    <div>09:00 - 10:30 Live sessions in CR 3</div>
+                                    <div>10:30 - 10:45 Break</div>
+                                    <div>10:45 - 12:00 Live sessions in CR 3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                    <div class="row h-50">
+                        <div class="col border-right">&nbsp;</div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                    <h5 class="m-2">
+                        <span class="badge badge-pill bg-success">&nbsp;</span>
+                    </h5>
+                    <div class="row h-50">
+                        <div class="col border-right">&nbsp;</div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="col-sm-2"> <!--spacer--> </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 3 -->
+            <div class="row no-gutters">
+                <div class="col-sm-9"> <!--spacer--> </div>
+                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                    <div class="row h-50">
+                        <div class="col border-right">&nbsp;</div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                    <h5 class="m-2">
+                        <span class="badge badge-pill bg-light border">&nbsp;</span>
+                    </h5>
+                    <div class="row h-50">
+                        <div class="col border-right">&nbsp;</div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="col-sm-2 py-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="float-right text-muted small">Jan 11th 2019 8:30 AM</div>
+                            <h4 class="card-title">Day 3</h4>
+                            <p>Shoreditch.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 4 -->
+            <div class="row no-gutters">
+                <div class="col-sm-9 py-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="float-right text-muted small">Jan 12th 2019 11:30 AM</div>
+                            <h4 class="card-title">Day 4 Wrap-up</h4>
+                            <p>Join us for lunch in Bootsy's cafe across from the Campus Center.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+                    <div class="row h-50">
+                        <div class="col border-right">&nbsp;</div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                    <h5 class="m-2">
+                        <span class="badge badge-pill bg-light border">&nbsp;</span>
+                    </h5>
+                    <div class="row h-50">
+                        <div class="col">&nbsp;</div>
+                        <div class="col">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="col-sm-2"> <!--spacer--> </div>
+            </div>
+            <!--/row-->
+  
+          </div>
+
+
+      
+      </div>
+
+
+
+
+
+    </div><!-- /.container -->
+
+
+    <!-- Footer start -->
+    <footer class="page-footer font-small pt-4 effect1b" id="br-footer">
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Custom JavaScript -->
+    <script src="/static/js/global-custom.js"></script>
+  </body>
+</html>
