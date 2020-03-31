@@ -1,0 +1,584 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <title>Blueraaga</title>
+    <link rel="icon" type="image/png" href="/static/image/logo.svg">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Font Awesome Icon JS -->
+    <script src="https://kit.fontawesome.com/37a24d7688.js" crossorigin="anonymous"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/global-custom.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Disclaimer start -->
+    <div class="modal fade" id="disclaimerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"></div>
+    <!-- Disclaimer end -->
+
+    <!-- Credits start -->
+    <div class="modal fade" id="creditsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"></div>
+    <!-- Credits end -->
+
+
+    <!-- Navigation start -->
+    <nav class="navbar row justify-content-center fixed-top navbar-expand-lg navbar-light scrolled effect1 px-0 mx-0" id="br-header">
+    </nav>
+    <!-- Navigation end -->
+
+    <div class="container">
+  
+      <!-- Work Cards start -->
+      <div class="row section page section-blog">
+
+				<!-- Top level horizonttal menu for blog -->
+				<!-- <div class="nav-scroller py-1 mb-2 col-lg-12">
+					<nav class="nav d-flex justify-content-between">
+						<a class="p-2 text-muted" href="#">World</a>
+						<a class="p-2 text-muted" href="#">U.S.</a>
+						<a class="p-2 text-muted" href="#">Technology</a>
+						<a class="p-2 text-muted" href="#">Design</a>
+						<a class="p-2 text-muted" href="#">Culture</a>
+						<a class="p-2 text-muted" href="#">Business</a>
+						<a class="p-2 text-muted" href="#">Politics</a>
+						<a class="p-2 text-muted" href="#">Opinion</a>
+						<a class="p-2 text-muted" href="#">Science</a>
+						<a class="p-2 text-muted" href="#">Health</a>
+						<a class="p-2 text-muted" href="#">Style</a>
+						<a class="p-2 text-muted" href="#">Travel</a>
+					</nav>
+				</div> -->
+				
+				<!-- Jumbo blog display -->
+				<div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+					<div class="row">
+						<div class="col-md-6">
+							<h1 class="display-4 font-sf">Title of a longer featured blog post</h1>
+							<p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+							<p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+						</div>
+						<div class="col-md-6" style="background: url('/static/image/c27.jpg'); background-size: cover; border: 1px solid white;">&nbsp;</div>
+					</div>
+				</div>
+				
+				<!-- Featured blogs -->
+				<div class="row mb-4">
+
+					<div class="col-lg-12 d-flex justify-content-center section-head effect1a my-4">
+						<p class="display-3 engraved">Latest Posts</p>
+					</div>
+
+					<div class="col-sm-12 col-md-6">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-danger">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c24.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-sm-12 col-md-6">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-info">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c21.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-sm-12 col-md-6">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-primary">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c25.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-sm-12 col-md-6">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-success">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c26.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+					
+				</div>
+
+				<!-- Case studies top 3 -->
+				<!-- <div class="row mb-2">
+					
+					<div class="col-lg-12 d-flex justify-content-center section-head effect1a my-4">
+						<p class="display-3 engraved">Case Studies</p>
+					</div>
+
+					<div class="col-sm-12">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-danger">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c24.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-sm-12">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-info">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c21.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-sm-12">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-primary">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c25.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+					
+				</div> -->
+				
+				<!-- Tutorials top 3 -->
+				<!-- <div class="row mb-2">
+					
+					<div class="col-lg-12 d-flex justify-content-center section-head effect1a my-4">
+						<p class="display-3 engraved">Tutorials</p>
+					</div>
+
+					<div class="col-sm-12">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-danger">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c24.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-sm-12">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-info">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c21.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-sm-12">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-primary">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c25.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+					
+				</div> -->
+
+				<!-- Notes top 3 -->
+				<!-- <div class="row mb-2">
+					
+					<div class="col-lg-12 d-flex justify-content-center section-head effect1a my-4">
+						<p class="display-3 engraved">Notes</p>
+					</div>
+
+					<div class="col-sm-12">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-danger">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c24.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-sm-12">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-info">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c21.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-sm-12">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-primary">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c25.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+					
+				</div> -->
+
+				<!-- Others top 3 -->
+				<!-- <div class="row mb-2">
+	
+					<div class="col-lg-12 d-flex justify-content-center section-head effect1a my-4">
+						<p class="display-3 engraved">Others</p>
+					</div>
+
+					<div class="col-sm-12">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-danger">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c24.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-12">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-info">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c21.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-12">
+						<div class="row no-gutters border rounded mb-4 shadow-sm">
+							<div class="col-md-8 p-4 d-flex flex-column">
+								<strong class="d-inline-block mb-2 text-primary">Category</strong>
+								<h3 class="mb-0">Featured post</h3>
+								<div class="mb-1 text-muted">Nov 12</div>
+								<p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="stretched-link">Continue reading</a>
+							</div>
+							<div class="col-md-4" style="background: url('/static/image/c25.jpg'); background-size: cover;">
+							</div>
+						</div>
+					</div>
+					
+				</div> -->
+
+
+				<!-- pills based nav -->
+				<div class="row mb-2">
+
+					<div class="col-lg-12 d-flex justify-content-center section-head effect1a my-4 w-100">
+						<p class="display-3 engraved">Previous Posts</p>
+					</div>
+	
+					<!-- <div class="card-text col-lg-12 text-center border">test class</div> -->
+						<div class="col-sm-3">
+              <!-- <p class="card-text mb-auto">This is a wider card with supporting text below.</p> -->
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Case studies</a>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Tutorials</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Notes</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Others</a>
+                <a class="nav-link disabled" id="v-pills-settings-tab" data-toggle="pill" href="#" role="tab" aria-controls="v-pills-settings" aria-selected="false">&nbsp;</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-settings" aria-selected="false">Data Science</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-settings" aria-selected="false">Systems & Processs</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-settings" aria-selected="false">Modelling & Simulation</a>
+                <a class="nav-link disabled" id="v-pills-settings-tab" data-toggle="pill" href="#" role="tab" aria-controls="v-pills-settings" aria-selected="false">&nbsp;</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Puzzles</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-settings" aria-selected="false">Problem Solving</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-settings" aria-selected="false">Interesting Research</a>
+              </div>
+						</div>
+						<div class="col-sm-9">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active col-sm-12" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+
+                  <div class="col-sm-12">
+                    <div class="row no-gutters border rounded mb-4 shadow-sm">
+                      <div class="col-md-8 p-4 d-flex flex-column">
+                        <strong class="d-inline-block mb-2 text-danger">Category</strong>
+                        <h3 class="mb-0">Featured post</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                      </div>
+                      <div class="col-md-4" style="background: url('/static/image/c28.jpg'); background-size: cover;">
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-sm-12">
+                    <div class="row no-gutters border rounded mb-4 shadow-sm">
+                      <div class="col-md-8 p-4 d-flex flex-column">
+                        <strong class="d-inline-block mb-2 text-info">Category</strong>
+                        <h3 class="mb-0">Featured post</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                      </div>
+                      <div class="col-md-4" style="background: url('/static/image/c29.jpg'); background-size: cover;">
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-sm-12">
+                    <div class="row no-gutters border rounded mb-4 shadow-sm">
+                      <div class="col-md-8 p-4 d-flex flex-column">
+                        <strong class="d-inline-block mb-2 text-primary">Category</strong>
+                        <h3 class="mb-0">Featured post</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                      </div>
+                      <div class="col-md-4" style="background: url('/static/image/c30.jpg'); background-size: cover;">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                  <div class="col-sm-12">
+                    <div class="row no-gutters border rounded mb-4 shadow-sm">
+                      <div class="col-md-8 p-4 d-flex flex-column">
+                        <strong class="d-inline-block mb-2 text-danger">Category</strong>
+                        <h3 class="mb-0">Featured post</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                      </div>
+                      <div class="col-md-4" style="background: url('/static/image/c31.jpg'); background-size: cover;">
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-sm-12">
+                    <div class="row no-gutters border rounded mb-4 shadow-sm">
+                      <div class="col-md-8 p-4 d-flex flex-column">
+                        <strong class="d-inline-block mb-2 text-info">Category</strong>
+                        <h3 class="mb-0">Featured post</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                      </div>
+                      <div class="col-md-4" style="background: url('/static/image/c32.jpg'); background-size: cover;">
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-sm-12">
+                    <div class="row no-gutters border rounded mb-4 shadow-sm">
+                      <div class="col-md-8 p-4 d-flex flex-column">
+                        <strong class="d-inline-block mb-2 text-primary">Category</strong>
+                        <h3 class="mb-0">Featured post</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                      </div>
+                      <div class="col-md-4" style="background: url('/static/image/c33.jpg'); background-size: cover;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                  <div class="col-sm-12">
+                    <div class="row no-gutters border rounded mb-4 shadow-sm">
+                      <div class="col-md-8 p-4 d-flex flex-column">
+                        <strong class="d-inline-block mb-2 text-danger">Category</strong>
+                        <h3 class="mb-0">Featured post</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                      </div>
+                      <div class="col-md-4" style="background: url('/static/image/c34.jpg'); background-size: cover;">
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-sm-12">
+                    <div class="row no-gutters border rounded mb-4 shadow-sm">
+                      <div class="col-md-8 p-4 d-flex flex-column">
+                        <strong class="d-inline-block mb-2 text-info">Category</strong>
+                        <h3 class="mb-0">Featured post</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                      </div>
+                      <div class="col-md-4" style="background: url('/static/image/c35.jpg'); background-size: cover;">
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-sm-12">
+                    <div class="row no-gutters border rounded mb-4 shadow-sm">
+                      <div class="col-md-8 p-4 d-flex flex-column">
+                        <strong class="d-inline-block mb-2 text-primary">Category</strong>
+                        <h3 class="mb-0">Featured post</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                      </div>
+                      <div class="col-md-4" style="background: url('/static/image/c36.jpg'); background-size: cover;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <div class="col-sm-12">
+                    <div class="row no-gutters border rounded mb-4 shadow-sm">
+                      <div class="col-md-8 p-4 d-flex flex-column">
+                        <strong class="d-inline-block mb-2 text-danger">Category</strong>
+                        <h3 class="mb-0">Featured post</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                      </div>
+                      <div class="col-md-4" style="background: url('/static/image/c37.jpg'); background-size: cover;">
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-sm-12">
+                    <div class="row no-gutters border rounded mb-4 shadow-sm">
+                      <div class="col-md-8 p-4 d-flex flex-column">
+                        <strong class="d-inline-block mb-2 text-info">Category</strong>
+                        <h3 class="mb-0">Featured post</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                      </div>
+                      <div class="col-md-4" style="background: url('/static/image/c38.jpg'); background-size: cover;">
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-sm-12">
+                    <div class="row no-gutters border rounded mb-4 shadow-sm">
+                      <div class="col-md-8 p-4 d-flex flex-column">
+                        <strong class="d-inline-block mb-2 text-primary">Category</strong>
+                        <h3 class="mb-0">Featured post</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                      </div>
+                      <div class="col-md-4" style="background: url('/static/image/c39.jpg'); background-size: cover;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+						</div>
+					</div>
+
+
+
+
+
+
+
+
+
+			</div><!-- section close -->
+		</div><!-- /.container -->
+
+    <!-- Footer start -->
+    <footer class="page-footer font-small pt-4 effect1b" id="br-footer">
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Custom JavaScript -->
+    <script src="/static/js/global-custom.js"></script>
+  </body>
+</html>

@@ -4,15 +4,19 @@
           <div class="col-md-12 col-lg-3 footer-about">
             <h5 class="text-uppercase engraved">About Blueraaga</h5>
             <small>
-              <p>
-                  <strong>What is blueraaga?</strong><br />
-                Simply put, it is my handle on the internet - from social network to emails and websites.
+              <p class="pb-0 mb-0">
+                <strong>What is blueraaga?</strong><br />
+                Simply put, it is my online handle - social networks, emails, website.
               </p>
-              <hr />
-              <p>
+              <hr class="mt-1" />
+              <p class="pb-0 mb-0">
+                <strong>Why this website?</strong><br />
+                I enjoy sharing what I learn, and keep control on my content. This website is mainly to share my knowledge, with a small part introdducing me. I hope you will find the content useful.
+              </p>
+              <hr class="mt-1"  />
+              <p class="pb-0 mb-0">
                 <strong>Why this name?</strong><br />
-                Well first the obvious one - this was available! &#13;
-                Now the important one - it represents two personal values with which I associate myself very deelpy. Blue relating to trust; raaga - relating to an enjoyable harmony. Hence the name "blueraaga".
+                Blue&bull;raaga represents two personal values with which I associate myself very deelpy. Blue - relating to trust; raaga - relating to harmony. Hence the name "blueraaga".
               </p>
             </small>
           </div>

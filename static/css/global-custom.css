@@ -465,6 +465,16 @@ footer a:hover {
 
 /* Contact page specific */
 
+.font-sf {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-ss {
+    /* font-family: 'Playfair Display', serif; */
+}
+
+
+
 .page {
     margin-top: 10vh;
 }
@@ -513,15 +523,3 @@ footer a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
 }
-
-/* .section-contact a {
-    color: #000;
-    text-decoration: none;
-    border-bottom: 0px dotted black;
-}
-
-.section-contact a:hover {
-    color: #000;
-    text-decoration: none;
-    border-bottom: 1px dotted black;
-} */
