@@ -25,6 +25,26 @@ $('.carousel').carousel({
 });
 
 
+$(".work-card").hover(
+    function () {
+        console.log("remove class");
+        $(".card-body div:nth-child(1)", this).removeClass("engraved");
+        $(".card-body div:nth-child(2)", this).removeClass("engraved");
+        $(".card-body div:nth-child(1)", this).addClass("embossed");
+        $(".card-body div:nth-child(2)", this).addClass("embossed");
+        $(".card-body p:nth-child(1)", this).addClass("embossed text-left");
+        $(".card-body p:nth-child(2)", this).addClass("embossed");
+    }, function () {
+        console.log("add class");
+        $(".card-body div:nth-child(1)", this).addClass("engraved");
+        $(".card-body div:nth-child(2)", this).addClass("engraved");
+        $(".card-body div:nth-child(1)", this).removeClass("embossed");
+        $(".card-body div:nth-child(2)", this).removeClass("embossed");
+        $(".card-body p:nth-child(1)", this).removeClass("embossed text-left");
+        $(".card-body p:nth-child(2)", this).removeClass("embossed");
+    }
+);
+
 
 
 $(document).ready(function () {

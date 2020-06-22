@@ -523,3 +523,38 @@ footer a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
 }
+
+
+.work-card:hover .card-body .card-text {
+    color: #fff;
+}
+
+#wc1:hover {  
+    background: url('/static/image/c44.jpg') no-repeat;
+    background-size: cover;
+}
+
+#wc2:hover {
+    background: url('/static/image/c45.jpg') no-repeat;
+    background-size: cover;
+}
+
+#wc3:hover {
+    background: url('/static/image/c46.jpg') no-repeat;
+    background-size: cover;
+}
+
+#wc4:hover {
+    background: url('/static/image/c53.jpg') no-repeat;
+    background-size: cover;
+}
+
+#wc5:hover {
+    background: url('/static/image/c48.jpg') no-repeat;
+    background-size: cover;
+}
+
+#wc6:hover {
+    background: url('/static/image/c49.jpg') no-repeat;
+    background-size: cover;
+}
