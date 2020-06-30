@@ -12,8 +12,9 @@
               <a class="dropdown-item" href="/about/timeline.html">Timeline</a>
               <a class="dropdown-item" href="/about/profile.html">Profile</a>
             </div>
-
-
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/#s-work">Works</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/blog/">Blog</a>
@@ -29,13 +30,13 @@
       <div class="collapse navbar-collapse col-lg-4">
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="https://www.linkedin.com/in/blueraaga/"><i class="fab fa-linkedin"></i></a>
+            <a class="nav-link" href="https://www.linkedin.com/in/blueraaga/"><i class="fab fa-linkedin" id="social-li"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://twitter.com/blueraaga"><i class="fab fa-twitter-square"></i></a>
+            <a class="nav-link" href="https://twitter.com/blueraaga"><i class="fab fa-twitter-square" id="social-tw"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="mailto:blueraaga@gmail.com"><i class="fas fa-envelope-square"></i></a>
+            <a class="nav-link" href="mailto:blueraaga@gmail.com"><i class="fas fa-envelope-square" id="social-em"></i></a>
           </li>
         </ul>
       </div>
