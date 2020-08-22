@@ -9,7 +9,7 @@
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="/about/mission.html">Mission</a>
-              <a class="dropdown-item" href="/about/timeline.html">Timeline</a>
+              <a class="dropdown-item" href="/about/biography.html">Biography</a>
               <a class="dropdown-item" href="/about/profile.html">Profile</a>
             </div>
           </li>
